@@ -17,7 +17,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RateAlbums", "RateAlbums", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PopulateCatalog", "PopulateCatalog", "{79865A53-F348-4F70-8CC4-05FEBFD79F6F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorUI.App", "BlazorUI\BlazorUI.App\BlazorUI.App.csproj", "{F9583423-54CF-41A4-BA6A-FD282F483203}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9583423-54CF-41A4-BA6A-FD282F483203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9583423-54CF-41A4-BA6A-FD282F483203}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9583423-54CF-41A4-BA6A-FD282F483203}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9583423-54CF-41A4-BA6A-FD282F483203}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
@@ -26,6 +38,7 @@ Global
 		{F3D23C19-9F66-4193-875E-5A59C6485444} = {94EC73BD-E80C-4551-9098-71D1A982DD54}
 		{30A0430B-0B67-453C-8246-1ED786D7B7F0} = {94EC73BD-E80C-4551-9098-71D1A982DD54}
 		{79865A53-F348-4F70-8CC4-05FEBFD79F6F} = {AFCC5CF7-0D2B-4FD1-9517-37E2362C9BBC}
+		{F9583423-54CF-41A4-BA6A-FD282F483203} = {C5ED6332-2840-4C08-9476-18815AF71949}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BC608CCA-E679-4B20-92B7-F46B3F986598}
