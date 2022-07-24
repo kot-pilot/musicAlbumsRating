@@ -9,13 +9,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservices", "Microservi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Workers", "Workers", "{AFCC5CF7-0D2B-4FD1-9517-37E2362C9BBC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Comments", "Comments", "{AC9D04CB-8885-49BB-BE96-47A107FEBE76}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BrowseCatalog", "BrowseCatalog", "{F3D23C19-9F66-4193-875E-5A59C6485444}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RateAlbums", "RateAlbums", "{30A0430B-0B67-453C-8246-1ED786D7B7F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PopulateCatalog", "PopulateCatalog", "{79865A53-F348-4F70-8CC4-05FEBFD79F6F}"
+EndProject
 Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AC9D04CB-8885-49BB-BE96-47A107FEBE76} = {94EC73BD-E80C-4551-9098-71D1A982DD54}
+		{F3D23C19-9F66-4193-875E-5A59C6485444} = {94EC73BD-E80C-4551-9098-71D1A982DD54}
+		{30A0430B-0B67-453C-8246-1ED786D7B7F0} = {94EC73BD-E80C-4551-9098-71D1A982DD54}
+		{79865A53-F348-4F70-8CC4-05FEBFD79F6F} = {AFCC5CF7-0D2B-4FD1-9517-37E2362C9BBC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BC608CCA-E679-4B20-92B7-F46B3F986598}
