@@ -3,7 +3,9 @@ Website for searching best albums within some genre, also there is a posibility 
 Tech Stack: Blazor, efcore, maybe some data migration tool, asp.net core, some auth technology (identity?)
 
 TODO: Draw scheme of microservices, docker compose file to run locally,
-minikube to run locally, kustomize for different environments, setup everything to run in AWS (and use bridge to kubernetes)
+minikube to run locally, kustomize for different environments(prod dev staging), 
+skaffold for development?
+setup everything to run in AWS (and use bridge to kubernetes)
 elasticsearch for comments
 
 *Besides genre each band should contain song-lyrics-speaking languages relations
