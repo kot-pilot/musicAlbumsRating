@@ -17,7 +17,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RateAlbums", "RateAlbums", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PopulateCatalog", "PopulateCatalog", "{79865A53-F348-4F70-8CC4-05FEBFD79F6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorUI.App", "BlazorUI\BlazorUI.App\BlazorUI.App.csproj", "{F9583423-54CF-41A4-BA6A-FD282F483203}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorUI.App", "BlazorUI\BlazorUI.App\BlazorUI.App.csproj", "{F9583423-54CF-41A4-BA6A-FD282F483203}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
