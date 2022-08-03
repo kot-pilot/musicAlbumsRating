@@ -1,4 +1,4 @@
-namespace Catalog.Api
+﻿namespace Catalog.ClientSharedModels
 {
     public class WeatherForecast
     {

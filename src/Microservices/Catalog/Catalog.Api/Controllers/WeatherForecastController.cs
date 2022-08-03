@@ -1,3 +1,4 @@
+using Catalog.ClientSharedModels;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Catalog.Api.Controllers
