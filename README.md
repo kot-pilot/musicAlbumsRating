@@ -2,9 +2,13 @@ Website for searching best albums within some genre, also there is a posibility 
 
 Tech Stack: Blazor, efcore, maybe some data migration tool, asp.net core, some auth technology (identity?)
 
-TODO: Draw scheme of microservices, docker compose file to run locally,
-minikube to run locally, kustomize for different environments(prod dev staging), 
-skaffold for development?
+TODO: 
+Draw scheme of microservices,
+docker compose file to run locally,
+k8s manifests,
+minikube to run locally,
+kustomize for different environments?(prod dev staging), 
+bridge to kubernetes or skaffold for development?
 setup everything to run in AWS (and use bridge to kubernetes)
 elasticsearch for comments
 
