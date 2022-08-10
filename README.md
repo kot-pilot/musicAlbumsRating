@@ -11,5 +11,3 @@ kustomize for different environments?(prod dev staging),
 bridge to kubernetes or skaffold for development?
 setup everything to run in AWS (and use bridge to kubernetes)
 elasticsearch for comments
-
-*Besides genre each band should contain song-lyrics-speaking languages relations
