@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: catalogApi
+spec:
+  selector:
+    matchLabels:
+      app: catalogApi
+  template:
+    metadata:
+      labels:
+        app: catalogApi
+    spec:
+      containers:
+      - name: catalogApi
+        image: musicAlbumsRating/catalogApi
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 80
