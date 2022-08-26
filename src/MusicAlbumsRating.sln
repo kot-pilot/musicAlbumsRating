@@ -23,7 +23,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.Api", "Microservice
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{67FC9017-9142-473A-AA98-71B833B624AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.ClientSharedModels", "Microservices\Catalog\Catalog.ClientSharedModels\Catalog.ClientSharedModels.csproj", "{BB209C6F-8608-4348-AD2D-FA4AFF05153C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.ClientSharedModels", "Microservices\Catalog\Catalog.ClientSharedModels\Catalog.ClientSharedModels.csproj", "{BB209C6F-8608-4348-AD2D-FA4AFF05153C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
