@@ -4,5 +4,5 @@ services:
   catalog.api:
     image: ${DOCKER_REGISTRY-}catalogapi
     build:
-      context: Microservices/Catalog/Catalog.Api
+      context: .
       dockerfile: Microservices/Catalog/Catalog.Api/Dockerfile
