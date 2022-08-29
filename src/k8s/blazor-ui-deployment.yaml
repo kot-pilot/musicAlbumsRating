@@ -1,19 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: catalogApi
+  name: blazor-ui-deployment
 spec:
   selector:
     matchLabels:
-      app: catalogApi
+      app: blazor-ui-deployment
   template:
     metadata:
       labels:
-        app: catalogApi
+        app: blazor-ui-deployment
     spec:
       containers:
-      - name: catalogApi
-        image: musicAlbumsRating/catalogApi
+      - name: blazor-ui-deployment
+        image: musicAlbumsRating/blazor-ui
+
         resources:
           limits:
             memory: "128Mi"

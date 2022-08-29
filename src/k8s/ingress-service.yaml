@@ -14,13 +14,13 @@ spec:
             pathType: Prefix
             backend:
               service:
-                name: blazorUI-cluster-ip-service
+                name: blazor-ui-cluster-ip-service
                 port:
                   number: 80
-          - path: /catalogApi/?(.*)
+          - path: /catalog-api/?(.*)
             pathType: Prefix
             backend:
               service:
-                name: catalogApi-cluster-ip-service
+                name: catalog-api-cluster-ip-service
                 port:
                   number: 80
