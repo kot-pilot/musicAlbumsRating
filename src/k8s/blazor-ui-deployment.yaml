@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: blazor-ui-deployment
-        image: musicAlbumsRating/blazor-ui
+        image: music-albums-rating/blazor-ui
 
         resources:
           limits:

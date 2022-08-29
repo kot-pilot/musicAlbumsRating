@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: catalog-api
-        image: musicAlbumsRating/catalog-api
+        image: music-albums-rating/catalog-api
         resources:
           limits:
             memory: "128Mi"
