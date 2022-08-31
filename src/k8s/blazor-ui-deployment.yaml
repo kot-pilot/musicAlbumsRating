@@ -5,16 +5,16 @@ metadata:
 spec:
   selector:
     matchLabels:
-      app: blazor-ui-deployment
+      app: blazor-ui
   template:
     metadata:
       labels:
-        app: blazor-ui-deployment
+        app: blazor-ui
     spec:
       containers:
-      - name: blazor-ui-deployment
+      - name: blazor-ui
         image: music-albums-rating/blazor-ui
-
+        imagePullPolicy: Never
         resources:
           limits:
             memory: "128Mi"
